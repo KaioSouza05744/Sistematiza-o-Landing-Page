@@ -1,0 +1,87 @@
+body style{
+    background-color: rgb(128, 128, 128);
+    color: white;
+    font-family: popincourt_1981; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+}
+    
+header style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1 style{
+    font-weight: 200;
+}
+
+main style{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 style{
+    font-size: 60px;
+    line-height: 10px;
+    font-family: Arial_Narrow_7;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+form[type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(7, 7, 202);
+    color: white;
+    font-weight: bold;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 25px;
+    border-radius: 22px;
+    border: none;
+    font-size: 15px;
+}
+
+h3 style{
+    font-size: 60px;
+    line-height: 10px;
+    font-family: Arial_Narrow_7;
+}
+
+
+
+.IMAGEM1 style,
+.IMAGEM2 style
+{
+
+    float: right;
+}
+
+.IMAGEM3 style,
+.IMAGEM4 style,
+.IMAGEM5 style
+{
+    flex-direction: row;
+    clear: both;
+}
+
+.Team style{
+    float: left;
+    margin-right: 20px;
+}
