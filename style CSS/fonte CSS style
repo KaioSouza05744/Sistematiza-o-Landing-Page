@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'popincourt_1981';
+    src: url('../fontes/popincourt_1981.zip') format('.zip')
+         url('../fontes/popincourt_1981.zip') format('zip');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'popincourt_1981';
+    src: url('../fontes/arial_narrow_7.zip') format('.zip')
+         url('../fontes/arial_narrow_7.zip') format('zip');
+    font-weight: normal;
+    font-style: normal;
+}
